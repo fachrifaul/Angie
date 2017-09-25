@@ -2,7 +2,7 @@
 Another Gallery of Image from Flickr
 
 # Descriptions
-This is a app for iOS using Swift 3.x for proof of concept of Flickr's Image Gallery
+This is a app for iOS using Swift 4 for proof of concept of Flickr's Image Gallery
 
 # Architecture
 The architecture is using VIP (View Interactor Presenter) clean architecture with template from 

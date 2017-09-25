@@ -7,16 +7,15 @@ target 'Angie' do
 
   # Pods for Angie
   pod 'Alamofire', '~> 4.4'
-  pod 'Kingfisher'
+  pod 'Kingfisher', '~> 4.0.1'
   pod 'SnapKit'
   pod 'Hue'
   pod 'SCLAlertView'
   pod 'SwiftyJSON'
   pod 'ALThreeCircleSpinner'
   pod 'XLActionController'
-  pod 'BtownToolkit'
   pod 'Hue'
-  pod 'DGElasticPullToRefresh', :git => 'https://github.com/azanium/DGElasticPullToRefresh.git', :branch => 'master'
+  pod 'DGElasticPullToRefresh', :git => 'https://github.com/fachrifaul/DGElasticPullToRefresh.git', :branch => 'master'
 
   target 'AngieTests' do
     inherit! :search_paths

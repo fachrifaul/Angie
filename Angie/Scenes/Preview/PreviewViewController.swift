@@ -153,7 +153,7 @@ class PreviewViewController: UIViewController, PreviewDisplayLogic
     
     // MARK: - Action
     
-    func showActions()
+    @objc func showActions()
     {
         let actionController = SkypeActionController()
         
@@ -180,7 +180,7 @@ class PreviewViewController: UIViewController, PreviewDisplayLogic
     
     // MARK: - Delegates 
     
-    func image(_ image: UIImage, didFinishSavingWithError error: Error?, contextInfo: UnsafeRawPointer) {
+    @objc func image(_ image: UIImage, didFinishSavingWithError error: Error?, contextInfo: UnsafeRawPointer) {
         if let error = error {
             // we got back an error!
             let ac = UIAlertController(title: "Save error", message: error.localizedDescription, preferredStyle: .alert)

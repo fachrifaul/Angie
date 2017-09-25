@@ -157,7 +157,7 @@ class GalleryViewController: UICollectionViewController, GalleryDisplayLogic
     
     // MARK: Gallery Events
     
-    func refreshAction()
+    @objc func refreshAction()
     {
         loadPhotos()
     }
@@ -226,7 +226,7 @@ extension GalleryViewController : UISearchBarDelegate {
         self.navigationItem.rightBarButtonItem = searchButton
     }
     
-    func handleSearchAction() {
+    @objc func handleSearchAction() {
         if let _ = self.navigationItem.titleView {
             self.navigationItem.titleView = nil
         }
